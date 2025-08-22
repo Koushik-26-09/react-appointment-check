@@ -14,6 +14,11 @@ You can add, star, and delete appointments with a clean and modern UI.
 
 ---
 
+## 🚀 Live Demo
+Check out the live version here 👉 [Appointments App](https://appointcheck.ccbp.tech/)
+
+---
+
 ## 👨‍💻 Author
 Designed & Developed by **Koushik**  
 
