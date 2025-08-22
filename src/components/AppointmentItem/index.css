@@ -1,0 +1,54 @@
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9ff;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+
+.date {
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.star-btn,
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.star-btn:hover,
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+
+.starred {
+  color: #facc15;
+}
+
+.delete-btn {
+  color: #ef4444;
+}
